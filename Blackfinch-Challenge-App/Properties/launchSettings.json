@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Blackfinch-Challenge-App": {
+      "commandName": "Project",
+      "commandLineArgs": "200000\r\n180000\r\n900"
+    }
+  }
+}

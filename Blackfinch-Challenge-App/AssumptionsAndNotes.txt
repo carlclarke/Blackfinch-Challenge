@@ -1,0 +1,41 @@
+﻿Assumption #1
+That there is user input of the 3 specified values and immediate calculation 
+of the possible success followed by outputting the other metrics. This is to 
+keep the application simple for this challenge although I realise that a real
+world application may offer the total and mean average values as another
+UI option.
+
+Assumption #2
+That there are services available to provide: total number of applicants,
+total value of loans written, mean average LTV. 
+
+Assumption #3
+There would be a service to calculate application success which would apply
+rules, but in this case I will code that part into the challenge or there
+would not be much code apart from calls to services.
+
+Assumption #2
+That the amount and secured asset are input in GBP
+
+Note #1
+I am going to use as much framework and 3rd party support as is possible to
+avoid 'reinventing the wheel' and increasing the opportunity for bugs.
+
+Note #2
+The business rules are hard coded here but in real life they would be
+implemented (in the service) using some configurable data and/or a rules
+engine.
+
+Note #3
+I have favoured simpler more terse code for readability rather than 
+shorter code
+
+Note #4
+I have used command line parameters to keep the 'UI' simple
+
+Note #5
+I have just 'mentioned' getting the total number of applicants,
+total value of loans written, mean average LTV in the console app
+given the 1 hour to spend on this I didn't think it was good use
+of time to do more than acknowledge how it might work and where
+thr data could get displayed.
